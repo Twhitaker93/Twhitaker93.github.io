@@ -1,0 +1,65 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    background: navy;
+    color: white
+}
+
+#second-paragraph {
+    background: red;
+}
+
+#third-paragraph {
+    background: green;
+}
+
+#fourth-paragraph {
+    background: purple;
+}
+
+#span-1 {
+    color: yellow;
+    background: rgb(156, 6, 31);
+}
+
+#span-2 {
+    color: greenyellow;
+    background: red;
+}
+
+#span-3 {
+    color: white;
+    background: black;
+}
+
+#span-4 {
+    color: navy;
+    background: yellow;
+}
+
+#span-5 {
+    color: yellow;
+    background: navy;
+}
+
+#span-6 {
+    color: pink;
+    background: rgb(255, 102, 0);
+}
+
+#span-7 {
+    color: rgb(0, 238, 255);
+    background: rgb(226, 57, 85);
+}
+
+#span-8 {
+    color: rgb(255, 123, 0);
+    background: lightblue;
+}

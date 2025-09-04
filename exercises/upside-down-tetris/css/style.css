@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    height: 100vh;
+    background: black;
+    font-size: 0px
+}
+
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+    border: 20px outset;
+}
+
+.red {
+    background-color: red;
+    border-color:rgb(192, 22, 22)
+}
+
+.blue {
+    background-color: blue;
+    border-color: rgb(28, 37, 158)
+}
+
+.green {
+    background-color: green;
+    border-color: rgb(37, 170, 37)
+}
+
+.black {
+    background-color: black;
+}
+
+.pink {
+    background-color: rgb(233, 106, 127);
+    border-color: rgb(221, 52, 108)
+}
+

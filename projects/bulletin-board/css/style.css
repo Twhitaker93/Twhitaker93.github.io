@@ -3,7 +3,8 @@
     padding: 24px;
     height: 200px;
     width: 300px;
-    font-family: san-serif;
+    font-family: sans-serif;
+    display: inline-block;
 }
 
 .pink {

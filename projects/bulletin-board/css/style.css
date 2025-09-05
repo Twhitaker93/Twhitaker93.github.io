@@ -1,0 +1,28 @@
+.post-it {
+    margin: 24px;
+    padding: 24px;
+    height: 200px;
+    width: 300px;
+    font-family: san-serif;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: rgb(56, 202, 56);
+}
+
+.image {
+    width: 250px;
+    height: 150px;
+}

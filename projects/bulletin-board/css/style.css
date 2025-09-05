@@ -5,6 +5,7 @@
     width: 300px;
     font-family: sans-serif;
     display: inline-block;
+    box-shadow: 2px 2px black;
 }
 
 .pink {

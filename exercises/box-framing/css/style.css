@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    margin: 55px;
+}
+
+#images {
+    width: 350px;
+    height: 200px;
+    border: 10px solid grey;
+    padding: 15px;
+    background-color: coral;
+}
+
+#images-1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 15px solid coral;
+    padding: 15px;
+    background-color: rgb(203, 218, 218);
+}
+
+#this {
+    border: 15px solid red;
+    text-align: center;
+    padding: 15px;
+    background-color: yellow;
+    display: inline-block;
+    width: 300px;
+}

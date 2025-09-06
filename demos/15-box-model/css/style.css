@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    margin: 24px 48px; 
+    text-align: center;
+    border: 5px dotted red;
+    padding: 50px;
+    background-color: aqua;
+    border-radius: 24px;
+}
+
+#demo-div {
+    border: 10px solid purple;
+    padding: 25px;
+    background-color: blue;
+    color: white;
+}

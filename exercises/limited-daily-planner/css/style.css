@@ -34,18 +34,24 @@ body {
     padding: 15px;
 }
 
-#morning .completed {
+#morning .completed,
+#afternoon .completed,
+#Evening .completed {
     text-decoration: line-through;
     list-style-type: "\1F5F9  ";
 }
 
-#afternoon .important {
+#afternoon .important,
+#morning .important,
+#Evening .important {
     font-weight: bold;
     color: red;
     list-style-type: "\2610  ";
 }
 
-#Evening .completed.important {
+#Evening .completed.important,
+#morning .completed.important,
+#afternoon .completed.important {
     border: 2px solid green;
     color: black;
     margin: 5px 0px 0px 0px;
@@ -53,7 +59,9 @@ body {
     box-shadow: inset 0px 0px 8px green;
 }
 
-#Evening .button {
+#Evening .button,
+#morning .button,
+#afternoon .button {
     display: inline-block;
     border: 5px solid rgb(18, 85, 85);
     border-radius: 10px;
@@ -61,7 +69,9 @@ body {
     color: rgb(9, 53, 53);
 }
 
-#afternoon li {
+#afternoon li,
+#morning li,
+#Evening li {
     background-color: rgb(236, 236, 154);
     padding: 5px;
     list-style-type: "\2610  ";

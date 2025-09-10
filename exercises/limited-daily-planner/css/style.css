@@ -12,7 +12,8 @@ body {
     background-color: rgb(238, 185, 87);
     border-radius: 10px;
     margin: 20px;
-    min-width: 50px;
+    max-width: 500px;
+    padding: 15px;
 }
 
 #afternoon {
@@ -20,7 +21,8 @@ body {
     background-color: rgb(248, 117, 70);
     border-radius: 10px;
     margin: 20px;
-    min-width: 50px;
+    max-width: 500px;
+    padding: 15px;
 }
 
 #Evening {
@@ -28,21 +30,22 @@ body {
     background-color: palevioletred;
     border-radius: 10px;
     margin: 20px;
-    min-width: 50px;
+    max-width: 500px;
+    padding: 15px;
 }
 
-.completed {
+#morning .completed {
     text-decoration: line-through;
     list-style-type: "\1F5F9  ";
 }
 
-.important {
+#afternoon .important {
     font-weight: bold;
     color: red;
     list-style-type: "\2610  ";
 }
 
-.completed.important {
+#Evening .completed.important {
     border: 2px solid green;
     color: black;
     margin: 5px 0px 0px 0px;
@@ -50,7 +53,7 @@ body {
     box-shadow: inset 0px 0px 8px green;
 }
 
-.button {
+#Evening .button {
     display: inline-block;
     border: 5px solid rgb(18, 85, 85);
     border-radius: 10px;
@@ -58,10 +61,10 @@ body {
     color: rgb(9, 53, 53);
 }
 
-li {
+#afternoon li {
     background-color: rgb(236, 236, 154);
     padding: 5px;
     list-style-type: "\2610  ";
-    margin: 0px;
+    margin: 6px;
     border-radius: 5px;
 }

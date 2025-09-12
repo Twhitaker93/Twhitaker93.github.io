@@ -36,18 +36,21 @@ h2 {
 
 .button {
     border-radius: 20px;
-    padding: 8px;
+    padding: 12px;
     background-color: rgb(245, 247, 247);
     color: crimson;
     font-size: 22px;
     display: inline-block;
     text-decoration: none;
     margin-bottom: 50px;
+    box-shadow: 4px 4px;
 }
 
 .images {
     width: 200px;
     height: 250px;
+    border-radius: 12px;
+    box-shadow: 4px 4px;
 }
 
 p {

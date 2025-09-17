@@ -25,3 +25,9 @@ body {
 #side-by-side-1 h2 {
     font-size: 60px;
 }
+
+#side-by-side-2 {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}

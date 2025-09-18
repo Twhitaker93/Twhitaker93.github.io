@@ -8,7 +8,7 @@ body {
 }
 
 .singal-column {
-    max-width: 500px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,12 +21,12 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 #sidebar-post {
-    background-color: antiquewhite;
-    width: 250px;
+    background-color: lightslategray;
+    width: 600px;
     order: 2;
     padding: 18px;
 }
@@ -36,5 +36,27 @@ body {
     color: white;
     padding: 12px;
     margin: 0px;
-    font-size: 18px;
+    font-size: 14px;
+}
+
+#sidebar-post ul {
+    margin: 0px 0px 36px;
+    background-color: #EFEFEF;
+    border: 1px solid darkslategray;
+    list-style-type: none;
+    padding: 0px 12px;
+}
+
+#sidebar-post li {
+    padding: 8px 0px;
+    border-bottom: 1px solid darkslategray;
+}
+
+#sidebar-post a {
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+#sidebar-post li:last-child {
+    border-bottom: 0px;
 }

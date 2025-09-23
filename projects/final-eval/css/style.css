@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Metal+Mania&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +7,52 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+.single-column {
+    max-width: 500px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Macondo;
+    background-color: black;
+    color: white
+}
+
+.images {
+    width: 200px;
+}
+
+.images-2 {
+    width: 200px;
+}
+
+#two-column {
+    display: flex;
+    align-items: center;
+}
+
+#move {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#game {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.buttons {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 50px;
+    border: 5px solid rgb(12, 146, 190);
+}
+
+#sidebar-content-2 {
+    margin-left: auto;
+    margin-right: auto;
 }

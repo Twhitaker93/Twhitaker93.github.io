@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Chela+One&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -11,6 +13,7 @@ body {
     background-color: black;
     display: flex;
     justify-content: center;
+    font-family: "Black Ops One";
 }
 
 #nav a {
@@ -25,10 +28,10 @@ body {
     background-image: url(../images/urban-hi-res-2nse.jpg);
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: 80vh;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: right;
+    align-items: center;
 }
 
 #hero .hero-content {
@@ -37,6 +40,7 @@ body {
     padding: 18px;
     margin-bottom: 20px;
     font-size: 30px;
+    font-family: "Black Ops One";
 }
 
 #hero .hero-content a {
@@ -51,16 +55,18 @@ body {
 }
 
 #layout {
-    max-width: 800px;
-    margin: 48px auto;
+    max-width: 1500px;
+    margin: auto;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.952);
+    padding: 24px;
 }
 
 #layout h1 {
     color: white;
     padding: 20px;
     font-size: 35px;
+    font-family: "Black Ops One";
 }
 
 #layout-2 {
@@ -76,6 +82,7 @@ body {
     font-size: 20px;
     color: black;
     display: inline;
+    font-family: "Black Ops One";
 }
 
 .masonry-gallery {
@@ -95,4 +102,45 @@ body {
     display: flex;
     justify-content: center;
     padding: 25px;
+    gap: 50px;
+    background-color: black
+}
+
+.card a {
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+.card {
+    border: 3px solid red;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-family: "Black Ops One";
+}
+
+@media screen and (max-width: 450px) {
+    #nav {        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero {
+        flex-direction: column;
+        align-items: center;
+        font-size: 24px;
+    }
+
+    #cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #layout {
+        flex-direction: column;
+        align-items: center;
+    }
 }

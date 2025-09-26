@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    display: inline;
+}
+
+#hero {
+    background-image: url(../images/urban-hi-res-2nse.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero .hero-content {
+    color: rgb(247, 237, 237);
+    text-align: center;
+    padding: 18px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#hero .hero-content a {
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    border: 5px solid black;
+    padding: 8px;
+    font-size: 20px;
+    color: black;
+    display: inline;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+#layout h1 {
+    color: white;
+    padding: 20px;
+    font-size: 35px;
+}
+
+#layout-2 {
+    padding: 30px;
+}
+
+#layout-2 a {
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    border: 5px solid black;
+    padding: 8px;
+    font-size: 20px;
+    color: black;
+    display: inline;
+}
+
+.masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    border: 1px solid red;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
